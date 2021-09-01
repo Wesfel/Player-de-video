@@ -1,0 +1,42 @@
+div{
+padding: 80px;
+}
+#background-1{
+    background-color: rgba(101, 170, 175, 0.705);
+    
+}
+
+body{
+    background-color: rgb(4, 183, 196);
+}
+
+button{
+background-color:cadetblue;
+border: 0;
+padding: 10px;
+width: 170px;
+height: 50px;
+display: inline-block;
+margin: 10px;
+cursor: pointer;
+border-radius: 4px;
+}
+
+h1{
+    border: solid 2pt black;
+    background-color: white;
+    width: 750px;
+}
+
+#fieldois{
+    background-color: rgb(4, 91, 190);
+}
+
+fieldset{
+    background-color: white;
+    border: 3pt black solid
+}
+
+i{
+    font-size: 25px;
+}
