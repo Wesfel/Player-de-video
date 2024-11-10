@@ -17,11 +17,14 @@
 
     <section>
         <article>
-            <div id="background-1">
+            <div id="background_1">
                 <center>
+                    <p><h1 id="titulo_inicio"
+                    > Player do video em HTML</h1>
+                    </p>
                 <div>
-                    <p><h1> Player do video em HTML</h1></p>
-                    <fieldset><video id="video1" controls="controls" width="500" height="400">
+                    <fieldset>
+                        <video id="video1" controls="controls" width="500" height="400">
                         <source src="_media/pexels-kindel-media-7425529.mp4" type="video/mp4">
                         <source src="_media/pexels-kindel-media-7425529.mp4" type="video/ogg">
                     </video>
@@ -30,10 +33,13 @@
                     <br>
                     <fieldset id="fieldois">
                     <button onclick="play_pause()"><i class="bi bi-play-circle-fill"></i><i class="bi bi-pause-fill"></i></button>
+                    <br>
                     <button onclick="ampliar()"><i class="bi bi-zoom-in"></i></button>
                     <button onclick="reduzir()"><i class="bi bi-zoom-out"></i></button>
+                    <br>
                     <button onclick="tamanho()"><i class="bi bi-arrows-angle-contract"></i></button>
                     <button onclick="telaCheia()"><i class="bi bi-fullscreen"></i></button>
+                    <br>
                     <button onclick="volumeMais()"><i class="bi bi-volume-up-fill"></i></button>
                     <button onclick="volumeMenos()"><i class="bi bi-volume-down-fill"></i></button>
                     <button onclick="muted()" ><i class="bi bi-volume-mute-fill"></i></button>

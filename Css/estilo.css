@@ -1,13 +1,22 @@
 div{
 padding: 80px;
 }
-#background-1{
+
+#background_1{
     background-color: rgba(101, 170, 175, 0.705);
     
 }
 
 body{
     background-color: rgb(4, 183, 196);
+}
+
+#titulo_inicio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-shadow: 10rem;
+    font-size: 30px;
 }
 
 button{

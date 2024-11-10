@@ -1,4 +1,7 @@
 var meuVideo = document.getElementById("video1");
+var video1 = width="500px", height="400"
+
+
 function play_pause() {
     if (meuVideo.paused) {
         meuVideo.play();
